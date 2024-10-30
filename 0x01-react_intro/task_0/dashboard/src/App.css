@@ -1,0 +1,29 @@
+:root {
+  --primary-color:  #e0354b;
+}
+.App{
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App-logo {
+  height: 15rem;
+}
+
+.App-header {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  border-bottom: solid;
+}
+
+.App-body {
+  border-bottom: solid var(--primary-color);
+  height: 50vh;
+  padding: 2em;
+  
+}
+
+.App-footer {
+  text-align: center;
+  font-style: italic;
+}
