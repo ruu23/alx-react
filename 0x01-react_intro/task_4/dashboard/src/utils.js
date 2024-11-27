@@ -3,7 +3,8 @@ export function getFullYear() {
   return currentYear;
 }
 
-export function getFooterCopy(isIndex) {
+export function getFooterCopy() {
+  const isIndex = true;
   if (isIndex) {
     return "Holberton School"
   } else {
