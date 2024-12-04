@@ -1,0 +1,9 @@
+.App-body {
+  border-bottom: solid var(--primary-color);
+  height: 50vh;
+  padding: 2em;
+  
+}
+form input {
+  margin: 10px;
+}

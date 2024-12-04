@@ -1,0 +1,17 @@
+.Notifications {
+  position: relative;
+  padding: 10px;
+  border: dashed var(--primary-color);
+}
+
+p {
+  font-weight: bold;
+}
+
+[data-notification-type="default"] {
+  color: blue;
+}
+
+[data-notification-type="urgent"] {
+  color: red;
+}

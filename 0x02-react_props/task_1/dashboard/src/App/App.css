@@ -1,0 +1,7 @@
+:root {
+  --primary-color:  #e0354b;
+}
+.App{
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}

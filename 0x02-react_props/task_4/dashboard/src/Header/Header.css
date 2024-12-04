@@ -1,0 +1,9 @@
+.App-header {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  border-bottom: solid;
+}
+.App-logo {
+  height: 15rem;
+}
