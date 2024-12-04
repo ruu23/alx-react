@@ -15,8 +15,6 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "immutable": "^4.3.7"
-  },
-  "type": "module"
-  
+    "immutable": "^4.0.0-rc.12"
+  }
 }
