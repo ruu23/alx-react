@@ -1,9 +1,6 @@
-export default function accessImmutableObject(object, array) {
-}
+import { fromJS } from 'immutable';
 
-accessImmutableObject({
-  name: {
-       first: "Guillaume",
-       last: "Salva"
-  }
-}, ['name', 'first'])
+export default function accessImmutableObject(object, array) {
+  const immutableObject = fromJS(object);
+  return immutableObject.getIn(array, undefined);
+}
